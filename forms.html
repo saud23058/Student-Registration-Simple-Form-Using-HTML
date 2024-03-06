@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<header>
+    <h1>Student Registration Form</h1>
+</header>
+<body>
+    <form action="/action.php">
+     <input type="text" placeholder="First name">
+     <br>
+     <br><input type="text" placeholder="Last name">
+     <br>
+     <h4>Please select your class</h4>
+     <label for="id1">
+        <input type="radio" value="class XI" name="class" id="id1"> class XI
+
+     </label>
+     <label>
+        <input type="radio" value="class XII" name="class" id="id1"> class XII
+     </label>
+     <br>
+     <h4>Please select your subjects</h4>
+     <label for="001" >
+        <input type="checkbox" value="math" name="subject" id="001">Math
+     </label>
+     <br><br>
+     <label for="002" >
+        <input type="checkbox" value="phy" name="subject" id="002">Phy
+     </label>
+     <br><br>
+     <label for="003" >
+        <input type="checkbox" value="chem" name="subject" id="003">Chem
+     </label>
+     <br><br>
+     <label for="003" >
+        <input type="checkbox" value="cs" name="subject" id="004">CS
+     </label>
+     <br><br>
+     <label for="004" >
+        <input type="checkbox" value="bio" name="subject" id="005">Bio
+     </label>
+     <h4>Select your campus</h4>
+    <select name="Campus">
+        <option value="abbottabad">Abbottabad</option>
+        <option value="lahore">Lahore</option>
+        <option value="islamabad">Islamabad</option>
+        <option value="wah">Wah</option>
+    </select>
+    <br><br>
+    <input type="submit" value="submit">
+     <br><br>
+     <textarea name="feedback" id="000" placeholder="Drop your feedback"></textarea>
+    </form>
+<footer>
+    <h4>Contact email comsat@gmail.com</h4>
+</footer>
+</body>
+</html>
